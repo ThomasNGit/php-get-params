@@ -15,7 +15,7 @@ $pwd = $_GET['password'];
 
 <?php 
 
-if($pwd != "boolean"){
+if($pwd != "Boolean"){
     echo "<h1 style='color:red'> PASSWORD ERRATA! </h1>";
 } else {
     echo "<h1 style='color:green'> PASSWORD CORRETTA! </h1>";
